@@ -1,0 +1,11 @@
+||oculus.com
+||oculuscdn.com
+||facebook-hardware.com
+||facebook.net
+||facebook.com
+||fbcdn.com
+||fbsbx.com
+||fbcdn.net
+||fb.me
+||fb.com
+||crashlytics.com 
