@@ -173,7 +173,7 @@ git clone -b dev https://github.com/StardustXR/protostar.git
 
 Once we have all of these download we'll need to compile them.
 
-```
+```sh
 cd flatland
 cargo build --release
 cd ../protostar
@@ -182,7 +182,7 @@ cargo build --release
 
 these are the same procedure as the server, but non-spatial-inputs needs a bit of special sauce.  To compile what we need for that do the following:
 
-```
+```sh
 cd non-spatial-input
 cd simular
 cargo build --release
