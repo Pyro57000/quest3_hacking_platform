@@ -18,4 +18,9 @@ cargo build --release
 cd ../manifold
 cargo build --release
 cd ../../
+mkdir ~/.config/stardust
+echo "#!/bin/bash" > ~/.config/stardust/startup
+echo "xwayland-satellite :69 &" >> ~/.config/stardust/startup
+echo "DISPLAY=:69 $(pwd)/stardust/protostar/target/release/hexagon_launcher & $(pwd)/stardust/flatland/target/release/flatland &" >> ~/.config/stardust/startup
+chmod +x ~/.config/stardust/startup
 echo "Assuming no error occured you should be good to go!"
